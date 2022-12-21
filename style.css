@@ -93,6 +93,7 @@ footer a :hover {
   text-decoration: underline;
 }
 header button{
+    border: 0px;
     background-color: #1A73E8;
     color: white;
     width: 100px;
