@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header a {
+  text-decoration: none;
+}
+header {
+  padding: 5px;
+}
+.leftHeader {
+  float: left;
+
+  padding-top: 15px;
+  word-spacing: 15px;
+  margin-left: 20px;
+}
+.rightHeader {
+  float: right;
+  word-spacing: 20px;
+}
+li {
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}
+.büyüteç {
+  width: 30px;
+  position: relative;
+  top: 12px;
+  left: 44px;
+}
+.mikrofon {
+  width: 15px;
+  position: relative;
+  right: 34px;
+  top: 5px;
+}
+.border {
+  border-radius: 25px;
+  width: 500px;
+  height: 40px;
+  border: 1px solid #d3d3d3;
+  padding-left: 50px;
+}
+/* .border:hover{
+    border:1px solid #D3D3D3;
+    box-shadow: 10px 22px 20px ;
+
+} */
+main {
+  text-align: center;
+  margin-top: 150px;
+}
+.mainbuton {
+  margin-top: 20px;
+  word-spacing: 10px;
+}
+.searchbuton,
+.luckybuton {
+  padding: 1px 6px;
+  width: 120px;
+  height: 36px;
+  border: hidden;
+  color: rgb(92, 86, 86);
+}
+p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 10px;
+}
+.footerleft {
+  float: left;
+  word-spacing: 20px;
+}
+.footerright {
+  float: right;
+  word-spacing: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(94, 88, 88);
+}
+footer a :hover {
+  text-decoration: underline;
+}
+header button{
+    background-color: #1A73E8;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+}
